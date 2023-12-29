@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Converter</string>
+    <string name="a_unit_converter_app">A Unit Converter App</string>
+    <string name="converter">Converter</string>
 </resources>
