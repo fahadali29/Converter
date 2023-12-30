@@ -4,4 +4,11 @@
     <string name="converter">Converter</string>
     <string name="weight">Weight</string>
     <string name="select_a_unit">Select A Unit</string>
+    <string name="gram_to_kilogram">Grams To Kilograms</string>
+    <string name="kilogram_to_gram">Kilograms To Grams</string>
+    <string name="convert_from">Convert From</string>
+    <string name="seconds_to_minutes">Seconds To Minutes</string>
+    <string name="minutes_to_seconds">Minutes To Seconds</string>
+    <string name="convert">Convert</string>
+    <string name="enter_weight_in_kilos">Enter Weight In Kilos</string>
 </resources>

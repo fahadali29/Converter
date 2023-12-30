@@ -4,6 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Time">
+    android:background="@color/primry"
+    tools:context=".Weight">
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/convert_from"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mintosec"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/secondry"
+        android:text="@string/minutes_to_seconds"
+        android:fontFamily="@font/inter"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sectomin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/secondry"
+        android:text="@string/seconds_to_minutes"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        android:fontFamily="@font/inter"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mintosec"
+        app:layout_constraintVertical_bias="0.232" />
 </androidx.constraintlayout.widget.ConstraintLayout>
